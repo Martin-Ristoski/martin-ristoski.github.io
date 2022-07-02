@@ -12,23 +12,24 @@ a:hover{
 #sticker > img{
     grid-template-areas: "one";
     margin-top: 300px;
-    margin-left: 500px;
+    margin-left: 650px;
     width: 210px;
     float: left;
 }
 .me > img{
     grid-template-areas: "two";
     height: 537px;
-    margin-left: -300px;
+    margin-left: -400px;
     padding-left: -100px;
-    float: right;
+    margin-bottom: -120px;
 }
 .container{
     display: grid;
     grid-template: "one two";
+    margin-top: 175px;
 }
 .menu{
-    margin-left: 700px;
+    margin-left: 930px;
 }
 a{
     text-decoration: none;
@@ -38,4 +39,30 @@ a{
 }
 .menu > span{
     padding-right: 25px;
+}
+
+
+
+
+.aboutme{
+    background-image: url("images/bck2.jpg");
+}
+.container2{
+    display: grid;
+    grid-template: "oneone twotwo";
+}
+body > div > div.photomatura{
+    grid-template-areas: "oneone";
+}
+body > div > div.text{
+    margin-left: 75px;
+    width: 400px;
+    grid-template-areas: "twotwo";
+}
+body > div > div.photomatura > img{
+    height: 450px;
+    margin-left: 100px;
+}
+.photomatura{
+
 }
