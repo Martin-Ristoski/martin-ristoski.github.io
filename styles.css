@@ -1,4 +1,41 @@
-body{
-    background-image: url("images/jas.jpg");
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.homepage{
+    background-image: url("images/bckfinal.jpg");
+    background-size: 100vw 50vw;
     background-repeat: no-repeat;
+}
+#sticker > img{
+    grid-template-areas: "one";
+    margin-top: 300px;
+    margin-left: 500px;
+    width: 210px;
+    float: left;
+}
+.me > img{
+    grid-template-areas: "two";
+    height: 537px;
+    margin-left: -300px;
+    padding-left: -100px;
+    float: right;
+}
+.container{
+    display: grid;
+    grid-template: "one two";
+}
+.menu{
+    margin-left: 700px;
+}
+a{
+    text-decoration: none;
+    font-family: "Arial Black";
+    font-size: 25px;
+    color: black;
+}
+.menu > span{
+    padding-right: 25px;
 }
