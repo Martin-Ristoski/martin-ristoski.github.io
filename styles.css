@@ -11,7 +11,7 @@ a:hover{
 }
 #sticker > img{
     grid-template-areas: "one";
-    margin-top: 300px;
+    margin-top: 290px;
     margin-left: 650px;
     width: 210px;
     float: left;
@@ -21,7 +21,8 @@ a:hover{
     height: 537px;
     margin-left: -400px;
     padding-left: -100px;
-    margin-bottom: -120px;
+    margin-top: -19px;
+    margin-bottom: -40px;
 }
 .container{
     display: grid;
@@ -29,11 +30,12 @@ a:hover{
     margin-top: 175px;
 }
 .menu{
-    margin-left: 930px;
+    margin-top: 40px;
+    margin-left: 960px;
 }
-a{
+a {
     text-decoration: none;
-    font-family: "Arial Black";
+    font-family: "Arial Black", serif;
     font-size: 25px;
     color: black;
 }
@@ -45,7 +47,8 @@ a{
 
 
 .aboutme{
-    background-image: url("images/bck2.jpg");
+    background-image: url("images/bck2final.png");
+    background-size: 100vw 50vw;
 }
 .container2{
     display: grid;
@@ -60,8 +63,14 @@ body > div > div.text{
     grid-template-areas: "twotwo";
 }
 body > div > div.photomatura > img{
-    height: 450px;
-    margin-left: 100px;
+    height: 390px;
+    margin-top: 230px;
+    margin-right: 100px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #203C35;
+    border-radius: 50px;
+
 }
 .photomatura{
 
