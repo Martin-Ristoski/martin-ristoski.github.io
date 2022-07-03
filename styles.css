@@ -47,7 +47,7 @@ a {
 
 
 .aboutme{
-    background-image: url("images/bck2final.png");
+    background-image: url("images/about-me-bcg.png");
     background-size: 100vw 50vw;
 }
 .container2{
@@ -58,20 +58,34 @@ body > div > div.photomatura{
     grid-template-areas: "oneone";
 }
 body > div > div.text{
-    margin-left: 75px;
-    width: 400px;
+    width: 650px;
     grid-template-areas: "twotwo";
 }
 body > div > div.photomatura > img{
-    height: 390px;
-    margin-top: 230px;
-    margin-right: 100px;
+    height: 300px;
+    margin-top: 320px;
+    margin-left: 50px;
     border-style: solid;
-    border-width: 10px;
-    border-color: #203C35;
+    border-width: 9px;
+    border-color: black;
     border-radius: 50px;
 
 }
-.photomatura{
-
+#hello{
+    color: #9d6308;
+}
+body > div > div.text > h1 > pre{
+    margin-left: -150px;
+}
+.first-text{
+    margin-left: 80px;
+    font-size: 17px;
+    font-family: "Arial Black", serif;
+    color: #333232;
+}
+body > div > div.text > div > h2{
+    color: #9d6308;
+}
+body > div > div.text > div > a{
+    color: #9d6308;
 }
