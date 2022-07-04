@@ -11,27 +11,29 @@ a:hover{
 }
 #sticker > img{
     grid-template-areas: "one";
-    margin-top: 290px;
+    margin-top: 350px;
     margin-left: 650px;
     width: 210px;
     float: left;
 }
-.me > img{
+.me{
     grid-template-areas: "two";
-    height: 537px;
+    height: 531px;
     margin-left: -400px;
     padding-left: -100px;
-    margin-top: -19px;
+}
+.me > img{
+margin-top: 55px;
     margin-bottom: -40px;
 }
 .container{
     display: grid;
     grid-template: "one two";
-    margin-top: 175px;
+    margin-top: 100px;
 }
 .menu{
-    margin-top: 40px;
-    margin-left: 960px;
+    margin-top: 30px;
+    margin-left: 1000px;
 }
 a {
     text-decoration: none;
@@ -42,6 +44,8 @@ a {
 .menu > span{
     padding-right: 25px;
 }
+
+
 
 
 
@@ -88,4 +92,16 @@ body > div > div.text > div > h2{
 }
 body > div > div.text > div > a{
     color: #9d6308;
+}
+
+
+
+
+
+
+
+.touch{
+    background-image: url("images/get-in-touch_banner.png");
+    background-repeat: no-repeat;
+    background-size: 1600px;
 }
