@@ -105,3 +105,65 @@ body > div > div.text > div > a{
     background-repeat: no-repeat;
     background-size: 1600px;
 }
+#connect {
+    display: flex;
+    font-family: "Franklin Gothic Heavy", serif;
+    font-size: 55px;
+    color: white;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+.logos{
+    margin-top: 225px;
+    justify-content: center;
+    display: flex;
+}
+.logo{
+    margin-right: 35px;
+    margin-left: 35px;
+}
+body > div > div.logo.fb > img{
+    margin-left: 75px;
+}
+body > div > div.logo.insta > img{
+    margin-left: 68px;
+}
+body > div > div.logo.yt > img{
+    margin-left: 62px;
+}
+body > div > div.logo.strava > img{
+    margin-left: 75px;
+}
+body > div > div.logo.fb > a {
+    font-family: "Franklin Gothic Heavy", serif;
+    font-weight: lighter;
+    background-color: #002B45;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 10px;
+}
+body > div > div.logo.insta > a{
+    font-family: "Franklin Gothic Heavy", serif;
+    font-weight: lighter;
+    background-color: #002B45;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 10px;
+}
+body > div > div.logo.yt > a{
+    font-family: "Franklin Gothic Heavy", serif;
+    font-weight: lighter;
+    background-color: #002B45;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 10px;
+}
+body > div > div.logo.strava > a{
+    font-family: "Franklin Gothic Heavy", serif;
+    font-weight: lighter;
+    background-color: #002B45;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 10px;
+}
