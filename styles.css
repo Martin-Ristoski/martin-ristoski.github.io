@@ -33,7 +33,7 @@ margin-top: 55px;
 }
 .menu{
     margin-top: 30px;
-    margin-left: 1000px;
+    margin-left: 885px;
 }
 a {
     text-decoration: none;
@@ -44,6 +44,10 @@ a {
 .menu > span{
     padding-right: 25px;
 }
+
+
+
+
 
 
 
@@ -93,6 +97,77 @@ body > div > div.text > div > h2{
 body > div > div.text > div > a{
     color: #9d6308;
 }
+
+
+
+
+
+
+
+
+
+
+.hobbies{
+    background-image: url("images/hobbies-bcg.jpg");
+    background-size: 1700px 800px;
+}
+.hobbies-text{
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 17px;
+    font-family: "Arial Black", serif;
+    color: #0F2043;
+}
+.big-text{
+    margin-left: 0;
+    font-size: 25px;
+    font-family: "Arial Black", serif;
+    color: #917f35;
+}
+.text-c{
+    margin-left: 0;
+}
+.hobbies-logos{
+    display: flex;
+}
+.hobbies-list{
+    margin-left: 80px;
+}
+.logo-cycling > img{
+    border-radius: 50%;
+
+    margin-left: -30px;
+    height: 150px;
+}
+.logo-running > img{
+    border-radius: 50%;
+    margin-right: 75px;
+    height: 150px;
+}
+.logo-video-edit > img{
+    height: 150px;
+}
+body > div.hobbies-list > div > div.logo-cycling > p{
+    font-size: 25px;
+    font-family: "Arial Black", serif;
+    color: #0F2043  ;
+    margin-left: 60px;
+}
+body > div.hobbies-list > div > div.logo-running > p{
+    font-size: 25px;
+    font-family: "Arial Black", serif;
+    color: #0F2043;
+    margin-left: 15px;
+}
+body > div.hobbies-list > div > div.logo-video-edit > p{
+    font-size: 25px;
+    font-family: "Arial Black", serif;
+    color: #0F2043;
+    margin-left: -15px;
+}
+
+
 
 
 
