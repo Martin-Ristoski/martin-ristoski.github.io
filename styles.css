@@ -33,7 +33,7 @@ margin-top: 55px;
 }
 .menu{
     margin-top: 30px;
-    margin-left: 885px;
+    margin-left: 875px;
 }
 a {
     text-decoration: none;
@@ -79,13 +79,14 @@ body > div > div.photomatura > img{
     border-radius: 50px;
 
 }
-#hello{
+.hello{
     color: #9d6308;
 }
 body > div > div.text > h1 > pre{
     margin-left: -150px;
 }
 .first-text{
+    margin-top: -20px;
     margin-left: 80px;
     font-size: 17px;
     font-family: "Arial Black", serif;
@@ -96,6 +97,9 @@ body > div > div.text > div > h2{
 }
 body > div > div.text > div > a{
     color: #9d6308;
+}
+.one1{
+    font-size: 20px;
 }
 
 
@@ -114,25 +118,30 @@ body > div > div.text > div > a{
 .hobbies-text{
     width: 50%;
     margin-left: 80px;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 17px;
     font-family: "Arial Black", serif;
     color: #0F2043;
 }
 .big-text{
-    margin-left: 0;
+    margin-left: 250px;
     font-size: 25px;
     font-family: "Arial Black", serif;
     color: #917f35;
 }
 .text-c{
+    margin-left: 205px;
+}
+.text-d{
     margin-left: 0;
+    font-size: 20px;
 }
 .hobbies-logos{
     display: flex;
 }
 .hobbies-list{
     margin-left: 80px;
+    margin-top: -20px;
 }
 .logo-cycling > img{
     border-radius: 50%;
@@ -166,8 +175,16 @@ body > div.hobbies-list > div > div.logo-video-edit > p{
     color: #0F2043;
     margin-left: -15px;
 }
-
-
+#a{
+    font-size: 20px;
+    color: black;
+}
+.three3{
+    margin-top: -15px;
+}
+.teens{
+    margin-top: 25px;
+}
 
 
 
